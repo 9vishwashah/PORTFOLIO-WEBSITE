@@ -64,8 +64,6 @@ html{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
-
-/* menu btn styling */
 .menu-btn{
     color: #fff;
     font-size: 23px;
@@ -99,9 +97,6 @@ html{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
-
-
-/* home section styling */
 .home{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
@@ -145,7 +140,6 @@ html{
     background: none;
 }
 
-/* all similar styling code*/
 section{
     padding: 100px 0;
 }
@@ -192,8 +186,6 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-
-/* about section styling */
 .about .title::after{
     content: "Who I'm";
 }
@@ -237,7 +229,6 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
 .services, .teams{
     color: #fff;
     background: #111;
@@ -283,7 +274,6 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/*skills section styling*/
 
 .skills .title::after{
     content: "My Skills";
@@ -532,17 +522,6 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-/* responsive media query start */
 @media (max-width: 1300px) {
     .home .max-width{
         margin-left: 0px;
